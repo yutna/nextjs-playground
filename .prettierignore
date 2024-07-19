@@ -18,14 +18,8 @@ coverage
 package.json
 package-lock.json
 
-# Ignore markdown files
-README.md
-
 # Ignore node_modules directory
 node_modules
 
 # Ignore npm debug files
 npm-debug.log*
-
-# Ignore public folder
-public
