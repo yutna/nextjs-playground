@@ -29,6 +29,7 @@ export default async function RootLayout({
         <nav style={{ display: "inline-flex", gap: "0.5rem" }}>
           <Link href="/">Home</Link>
           <Link href="/settings">Settings</Link>
+          <Link href="/feeds/photos/1">Feeds Photos 1</Link>
         </nav>
         <br />
         <br />
@@ -36,6 +37,7 @@ export default async function RootLayout({
         {children}
         {analytics}
         {team}
+        <div id="modal-root"></div>
       </body>
     </html>
   );

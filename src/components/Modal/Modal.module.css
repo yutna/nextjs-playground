@@ -1,0 +1,55 @@
+.modalBackdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  font-size: 48px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 15px;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #eee;
+}
+
+.closeButton::after {
+  content: "x";
+  color: black;
+}
