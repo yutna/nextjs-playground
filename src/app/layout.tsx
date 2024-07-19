@@ -1,4 +1,6 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
+
 import "./globals.css";
 
 import type { Metadata } from "next";
@@ -14,14 +16,29 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
+  analytics,
   children,
+  team,
 }: Readonly<{
+  analytics: ReactNode;
   children: ReactNode;
+  team: ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav style={{ display: "inline-flex", gap: "0.5rem" }}>
+          <Link href="/">Home</Link>
+          <Link href="/settings">Settings</Link>
+        </nav>
+        <br />
+        <br />
+        <br />
+        {children}
+        {analytics}
+        {team}
+      </body>
     </html>
   );
 }
