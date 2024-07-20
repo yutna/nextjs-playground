@@ -1,9 +1,7 @@
-import { Inter } from "next/font/google";
+import { inter } from "@/config/fonts";
 
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   description: "Exploring and learning Next.js framework",
