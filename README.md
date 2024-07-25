@@ -1,6 +1,6 @@
 # Next.js Playground
 
-This repository is for storing examples and exercises done while studying Next.js. Besides serving as a backup, it is also used as a reference to revisit notes and records that I have kept.
+xxx This repository is for storing examples and exercises done while studying Next.js. Besides serving as a backup, it is also used as a reference to revisit notes and records that I have kept.
 
 ## Prerequisites
 
