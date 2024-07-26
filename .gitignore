@@ -17,6 +17,7 @@ yarn-error.log*
 .DS_Store
 
 # Next.js
+.swc
 /.next/
 /out/
 
