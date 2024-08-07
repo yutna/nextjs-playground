@@ -1,9 +1,7 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
-    <option name="SOFT_MARGINS" value="80" />
     <HTMLCodeStyleSettings>
       <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-      <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     </HTMLCodeStyleSettings>
     <JSCodeStyleSettings version="0">
       <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -33,14 +31,7 @@
         <option name="TAB_SIZE" value="2" />
       </indentOptions>
     </codeStyleSettings>
-    <codeStyleSettings language="JSON">
-      <indentOptions>
-        <option name="CONTINUATION_INDENT_SIZE" value="2" />
-        <option name="TAB_SIZE" value="2" />
-      </indentOptions>
-    </codeStyleSettings>
     <codeStyleSettings language="JavaScript">
-      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="SOFT_MARGINS" value="80" />
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
@@ -48,14 +39,7 @@
         <option name="TAB_SIZE" value="2" />
       </indentOptions>
     </codeStyleSettings>
-    <codeStyleSettings language="Slim">
-      <indentOptions>
-        <option name="CONTINUATION_INDENT_SIZE" value="2" />
-        <option name="TAB_SIZE" value="2" />
-      </indentOptions>
-    </codeStyleSettings>
     <codeStyleSettings language="TypeScript">
-      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="SOFT_MARGINS" value="80" />
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
@@ -67,19 +51,6 @@
       <option name="SOFT_MARGINS" value="80" />
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="XML">
-      <indentOptions>
-        <option name="CONTINUATION_INDENT_SIZE" value="2" />
-        <option name="TAB_SIZE" value="2" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="liquid">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="2" />
-        <option name="CONTINUATION_INDENT_SIZE" value="2" />
-        <option name="TAB_SIZE" value="2" />
       </indentOptions>
     </codeStyleSettings>
   </code_scheme>
